@@ -19,18 +19,13 @@ The final notebook is organized into the following sections:
 3. **Pipeline & Model Training** – Data preprocessing, augmentation, and training of ResNet and Vision Transformer (ViT) classifiers, including uncertainty-aware variants.
 4. **Model Error & Uncertainty Analysis** – Training performance, classification errors, F1 scores, confusion matrices, and statistical analysis of uncertainty across multi- and single-genre samples.
 
-## Data & Model Resources
-
-- **Original Datasets:** [MTG](https://mtg.upf.edu/) and [GTZAN](http://marsyas.info/downloads/datasets.html)
-- **Merged Dataset (Mel Spectrograms):** [Google Drive](https://drive.google.com/file/d/17V6lYRQw80f7Jy2A8YlOGpIrpunKT5Q4/view?usp=sharing)
-- **Pre-trained Model Weights:** [Google Drive](https://drive.google.com/file/d/1BpbW3zK5387j5iIg_4EhYbvP4AZsB3Mc/view?usp=sharing)
 
 ## Reproducing the Project
 
 - The dataset sampling and merging procedure can be reproduced by running `utils/Merging datasets.ipynb`.
 - Pre-trained model weights are provided above to avoid computationally expensive retraining.
 - The full training loops and supporting model implementations are included in the notebook and `utils` folder.
-- Full dependencies are provided in the zipped `requirements.txt` file.
+- Full dependencies are provided in the `requirements.txt` file.
 
 The notebook uses Python, PyTorch, Hugging Face Transformers, scikit-learn, UMAP, and standard data visualization libraries.
 
