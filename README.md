@@ -29,6 +29,8 @@ The final notebook is organized into the following sections:
 
 The notebook uses Python, PyTorch, Hugging Face Transformers, scikit-learn, UMAP, and standard data visualization libraries.
 
+## Data & Model Resources
+- Original Datasets: MTG and GTZAN
 ## Reproducibility
 
 A random seed of `1090` is used throughout the project where applicable. Models automatically use CUDA when available and otherwise fall back to CPU.
