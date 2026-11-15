@@ -1,4 +1,4 @@
-# Project Group #44: Quantifying Genre Ambiguity in Music
+# Quantifying Genre Ambiguity in Music
 
 **Authors:** Sidhi, Stephanie, Gio
 
